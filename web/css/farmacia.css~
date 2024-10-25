@@ -17,6 +17,8 @@ header {
   color: white;
   text-align: center;
   padding: 10px;
+  position: relative;         /* Para evitar conflictos */
+
 }
 
 /* Menú lateral */
@@ -83,18 +85,27 @@ footer {
   z-index: 10; /* Asegura que el footer esté por encima de otros elementos si es necesario */
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column; /* Apila el logo y título verticalmente */
+  align-items: center;    /* Centrar horizontalmente */
+  flex: 1;                /* Ocupa el espacio disponible */
+  text-align: center;
+}
+
+/* Ajuste del logo */
 .logo img {
-  width: 100px;
+  width: 100px;  /* Tamaño del logo */
   height: auto;
-  margin-right: 10px;
+  margin-bottom: 10px; /* Espacio debajo del logo */
 }
 
 h1 {
   font-size: 24px;
   margin: 0;
-  margin-left: 10px;
-}
-
+  margin-left: 10px;}
+  
+/* Alinear el login a la derecha */
 .login {
   margin-right: 20px;
 }
@@ -365,8 +376,26 @@ input[type="radio"] {
 }
 
 .MR {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;  /* Centra horizontalmente */
     align-items: center;      /* Centra verticalmente */
     height: 100%;             /* El contenedor ocupa toda la pantalla */
 }
+=======
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  height: 100%;             /* El contenedor ocupa toda la pantalla */
+}
+
+/* Estilo para el footer */
+.footer {
+  background-color: #C4DFDF;
+  text-align: center;
+  padding: 10px 0;
+  position: relative; /* Asegura que no se superponga con el contenido */
+  bottom: 0;
+}
+
+>>>>>>> upstream/main
