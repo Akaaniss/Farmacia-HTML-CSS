@@ -41,11 +41,8 @@
     </li>
     <li><a href="listadofarmacias.html">Farmacias</a></li>
     <li><a href="Carrito.html">Carrito</a></li>
-<<<<<<< HEAD
     <li><a href="MRweb.html">Estructura(MR)</a></li> 
-=======
     <li><a href="MR.html">Estructura(MR)</a></li> 
->>>>>>> upstream/main
     <li><a href="Grupo.html">Grupo Trabajo</a></li>
   </ul>
 </nav>
@@ -53,11 +50,7 @@
 <main>
   <h2>Nuestra estructura</h2>
   <div class= "MR">
-<<<<<<< HEAD
-  <img src="media/MR.jpg" alt="Estructura" width= "850">
-=======
   <img src="media/MRweb.jpg" alt="Estructura" width= "850">
->>>>>>> upstream/main
   </div>
 </main>
 

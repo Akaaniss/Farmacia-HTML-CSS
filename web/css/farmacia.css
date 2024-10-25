@@ -376,16 +376,11 @@ input[type="radio"] {
 }
 
 .MR {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;  /* Centra horizontalmente */
     align-items: center;      /* Centra verticalmente */
     height: 100%;             /* El contenedor ocupa toda la pantalla */
-=======
-  display: flex;
-  justify-content: center;  /* Centra horizontalmente */
-  align-items: center;      /* Centra verticalmente */
-  height: 100%;             /* El contenedor ocupa toda la pantalla */
+    display: flex;
 }
 
 /* Estilo para el footer */
